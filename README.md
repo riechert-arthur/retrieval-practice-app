@@ -1,5 +1,5 @@
 # Retrieval Practice App
-A CRUD app to allow users to track their learning and apply ideas from experimental psychology to their learning process. This appis focused around the idea of desirable difficulties.
+A CRUD app to allow users to track their learning and apply ideas from experimental psychology to their learning process. This app is focused around the idea of desirable difficulties.
 
 ## Technologies
 - Typescript
