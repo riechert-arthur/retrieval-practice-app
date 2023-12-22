@@ -9,9 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'play-icon': "url('/play-button.svg')",
+        'pause-icon': "url('/pause.svg')",
+        'fast-forward-icon': "url('/fast-forward.svg')",
+        'reset-icon': "url('/refresh.svg')",
       },
     },
   },
