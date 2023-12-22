@@ -1,3 +1,4 @@
+import { montserrat } from '@/library/fonts'
 import Link from 'next/link'
 
 /**
@@ -21,14 +22,18 @@ const links: InternalLink[] = [
 
 export default function Navigation() {
     return (
-        <ul className='flex w-full list-none text-xs'>
-            {
-                links.map((link: InternalLink, index: number) => (
-                    <li key={ index }>
-                        <Link href={ link.route }>{ link.name }</Link>
-                    </li>
-                ))
-            }
-        </ul>
+        <nav>
+            <ul className={ `flex w-full list-none
+                ${ montserrat.className } text-xl text-gray-600 font-light` 
+            }>
+                {
+                    links.map((link: InternalLink, index: number) => (
+                        <li key={ index } className='ml-4'>
+                            <Link href={ link.route }>{ link.name }</Link>
+                        </li>
+                    ))
+                }
+            </ul>
+        </nav>
     )
 }

@@ -15,8 +15,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='font-mono'>
-        <Navigation />
-        {children}
+        <div className='p-3'>
+          <Navigation />
+          {children}
+        </div>
       </body>
     </html>
   )
