@@ -8,9 +8,9 @@ export default function PlayButton() {
         <button 
             className={
                 `flex justify-center items-center
-                w-6 h-6
+                ml-2 w-12 h-12
                 bg-play-icon bg-center
-                bg-no-repeat bg-[length:10px_10px] 
+                bg-no-repeat bg-[length:20px_20px] 
                 border border-gray rounded-full`
             }
         ></button>

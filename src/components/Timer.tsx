@@ -20,11 +20,11 @@ import ResetButton from "./ResetButton"
 export default function Timer() {
     return (
         <div className={ `flex flex-col justify-center items-center 
-            w-60 h-60 rounded-full border-2`
+            w-64 h-64 rounded-full border-4 ${ kulimPark.className }`
         }>
-            <text className='w-fit'><i>Next: Rest</i></text>
-            <text className='w-fit text-4xl'>3:29:20</text>
-            <div className='flex'>
+            <text className='w-fit text-2xl text-gray-600'><i>Next: Rest</i></text>
+            <text className='w-fit text-6xl'>3:29:20</text>
+            <div className='flex items-center mt-4'>
                 <ResetButton />
                 <PlayButton />
                 <FastForwardButton />

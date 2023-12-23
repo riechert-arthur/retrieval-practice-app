@@ -23,12 +23,12 @@ const links: InternalLink[] = [
 export default function Navigation() {
     return (
         <nav>
-            <ul className={ `flex w-full list-none
+            <ul className={ `flex justify-between w-full list-none
                 ${ montserrat.className } text-xl text-gray-600 font-light` 
             }>
                 {
                     links.map((link: InternalLink, index: number) => (
-                        <li key={ index } className='ml-4'>
+                        <li key={ index }>
                             <Link href={ link.route }>{ link.name }</Link>
                         </li>
                     ))

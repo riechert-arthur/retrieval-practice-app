@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='font-mono'>
-        <div className='p-3'>
+        <div className='p-5'>
           <Navigation />
           {children}
         </div>

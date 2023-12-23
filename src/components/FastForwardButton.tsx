@@ -8,9 +8,9 @@ export default function FastForwardButton() {
         <button 
             className={
                 `flex justify-center items-center
-                w-6 h-6
+                w-10 h-10 ml-2
                 bg-fast-forward-icon bg-center
-                bg-no-repeat bg-[length:10px_10px] 
+                bg-no-repeat bg-[length:15px_15px] 
                 border border-gray rounded-full`
             }
         ></button>
