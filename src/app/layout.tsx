@@ -1,5 +1,6 @@
-import type { Metadata } from 'next'
 import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
+import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -14,11 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='font-mono'>
+      <body className='font-mono overflow-visible'>
         <div className='p-5'>
           <Navigation />
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   )

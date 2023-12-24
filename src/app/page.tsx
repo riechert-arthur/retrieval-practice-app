@@ -4,7 +4,7 @@ import { roboto } from '@/library/fonts'
 
 export default function Home() {
   return (
-    <main className='flex flex-col items-center h-screen w-full'>
+    <main className='flex flex-col items-center mb-16 w-full'>
       <div className={ `flex flex-col mt-20 w-full ${roboto.className} text-4xl` }>
         <text><b>Current:</b></text>
         <text>Read Chapter 2</text>

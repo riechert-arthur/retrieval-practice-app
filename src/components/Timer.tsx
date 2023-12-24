@@ -20,7 +20,7 @@ import ResetButton from "./ResetButton"
 export default function Timer() {
     return (
         <div className='p-1 rounded-full bg-gradient-to-b from-green-400 to-sky-500'>
-            <div className={ `flex flex-col justify-center items-center 
+            <div className={ `flex flex-col justify-center items-center p-2
                 w-64 h-64 rounded-full ${ kulimPark.className } bg-white`
             }>
                 <text className='w-fit text-2xl text-gray-600'><i>Next: Rest</i></text>
