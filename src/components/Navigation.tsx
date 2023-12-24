@@ -1,4 +1,4 @@
-import { montserrat } from '@/library/fonts'
+import { montserrat, roboto } from '@/library/fonts'
 import Link from 'next/link'
 
 /**
@@ -22,8 +22,9 @@ const links: InternalLink[] = [
 
 export default function Navigation() {
     return (
-        <nav>
-            <ul className={ `flex justify-between w-full list-none
+        <nav className='flex items-center md:justify-between'>
+            <Link className={ `hidden md:inline ${ roboto.className } text-3xl font-bold` } href='/'>3L</Link>
+            <ul className={ `flex justify-between ml-4 w-full md:w-2/5 list-none
                 ${ montserrat.className } text-xl text-gray-600 font-light` 
             }>
                 {
